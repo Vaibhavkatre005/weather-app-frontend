@@ -1,0 +1,361 @@
+body {
+  background: url("https://cdn.dribbble.com/users/2986824/screenshots/15841221/media/058843f461c91c12016a0a4396de2fbe.png?compress=1&resize=1000x750&vertical=center");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.heading {
+  margin: auto;
+  /* border: 2px solid red; */
+  width: 45%;
+  margin-top: 20px;
+}
+
+.heading h1 {
+  margin: auto;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.containers {
+  width: 70%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+
+.inputSearch {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 30vh;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+
+
+}
+
+.inputSearch input {
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #0e343e;
+  width: 60%;
+  height: 8vh;
+  color: aliceblue;
+  /* border: 1px solid red; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+.inputSearch input:hover {
+  background-color: #063e64;
+  ;
+
+}
+
+/* .btncurrent button{
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  border: none;
+  font-weight: 300;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+ 
+  background-color: #95caec;
+
+}
+.btncurrent button:hover{
+  background-color: #e1e4e6;;
+} */
+
+.loadingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.loadingContainer p {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.errorContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.errorContainer h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-left: 1rem;
+}
+
+.weatherdiv {
+  background-color: #e6d7e6;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.weatherdiv h2 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.weatherdiv p {
+  font-size: 21px;
+
+  font-weight: 600;
+
+}
+
+.WeatherData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.isframe {
+  height: 45vh;
+  width: 25vw;
+  /* border:2px solid red; */
+}
+
+.isframe iframe {
+  /* border:2px solid red; */
+  border-radius: 10%;
+  height: 40vh;
+  width: 23vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+@media only screen and (max-width:800px) {
+  body {
+    background: url("https://cdn.dribbble.com/users/2986824/screenshots/15841221/media/058843f461c91c12016a0a4396de2fbe.png?compress=1&resize=1000x750&vertical=center");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .containers {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .heading {
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .heading h1 {
+    margin: auto;
+    font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  .isframe {
+    width: 100%;
+    height: 300px;
+    /* border:2px solid red; */
+
+  }
+
+  .isframe iframe {
+    /* border:2px solid red; */
+    border-radius: 10%;
+    height: 35vh;
+    width: 48vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  .inputSearch {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+
+
+  }
+
+  .inputSearch input {
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #0e343e;
+    width: 100%;
+    height: 8vh;
+    color: aliceblue;
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  .weatherdiv {
+    background-color: #e6d7e6;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    /* border:2px solid red; */
+    height: 35vh;
+    width: 48vw;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  .weatherdiv h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .weatherdiv p {
+    font-size: 23px;
+    font-weight: 600;
+
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  body {
+    background: url("https://cdn.dribbble.com/users/2986824/screenshots/15841221/media/058843f461c91c12016a0a4396de2fbe.png?compress=1&resize=1000x750&vertical=center");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .containers {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .heading {
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .heading h1 {
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .isframe {
+    width: 100%;
+    height: 50px;
+  }
+
+  .isframe iframe {
+    /* border:2px solid red; */
+    border-radius: 10%;
+    height: 20vh;
+    width: 50vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  .inputSearch {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+
+
+  }
+
+  .inputSearch input {
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #0e343e;
+    width: 100%;
+    height: 8vh;
+    color: aliceblue;
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  .weatherdiv {
+    background-color: #e6d7e6;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    /* border:2px solid red; */
+    height: 25vh;
+    width: 48vw;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+  .weatherdiv h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .weatherdiv p {
+    font-size: 15px;
+    font-weight: 600;
+
+  }
+
+
+}
